@@ -90,6 +90,11 @@ header {
 
 .hero > p  {
     line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    margin-right: 10px;
 }
 
 /* fine sezione hero */
@@ -175,7 +180,6 @@ footer {
 
 .top-footer {
     padding: 10px 0 20px 0;
-    border-bottom: 1px solid white;
     height: 500px;
 }
 
@@ -220,6 +224,14 @@ footer {
     list-style: none;
 }
 
+hr {
+    background-color: #7175da;
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    border: none;
+}
+
 .bottom-footer {
     padding-top: 20px;
     height: 100px;
@@ -246,7 +258,7 @@ footer {
     border-radius: 50px;
     border: none;
     padding: 8px;
-    margin: 10px;
+
 }
 
 .btn.black {
