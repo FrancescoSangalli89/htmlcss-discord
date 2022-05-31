@@ -59,12 +59,6 @@ header {
     text-align: right;
 }
 
-.btn {
-    border-radius: 50px;
-    border: none;
-    padding: 8px;
-}
-
 /* fine top header */
 
 
@@ -74,11 +68,24 @@ header {
     display: flex;
     align-items: center;
     height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .hero {
     width: 50%;
     margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.hero > h1 {
+    margin-bottom: 20px;
+}
+
+.hero > p  {
+    line-height: 25px;
 }
 
 /* fine sezione hero */
@@ -98,6 +105,94 @@ header {
 .main-section:nth-child(even) {
     background-color: #f6f6f6;
 }
+
+.section-container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.img-section {
+    width: 70%;
+}
+
+.text-section {
+    width: 30%;
+}
+
+/* fine sezione main */
+
+/* inizio footer */
+
+footer {
+    height: 600px;
+    background-color: #25272a;
+}
+
+.top-footer {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid white;
+    height: 500px;
+}
+
+.contacts {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+.column.social {
+    width: 30%;
+}
+
+.column {
+    width: calc(70% / 4);
+}
+
+.bottom-footer {
+    padding-top: 20px;
+    height: 100px;
+
+}
+
+.btm-footer-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo, .footer-button {
+    padding: 5px;
+}
+
+/* fine footer */
+
+/* bottoni */
+
+.btn {
+    border-radius: 50px;
+    border: none;
+    padding: 8px;
+    margin: 10px;
+}
+
+.btn.black {
+    background-color: #25272a;
+    color: #fff;
+}
+
+/* bottoni */
 
 /* onde */
 
@@ -144,78 +239,6 @@ header {
 }
 
 /* fine onde */
-
-.section-container {
-    width: 70%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.section-container.reverse {
-    flex-direction: row-reverse;
-}
-
-.img-section {
-    width: 70%;
-}
-
-.text-section {
-    width: 30%;
-}
-
-/* fine sezione main */
-
-/* inizio footer */
-
-footer {
-    height: 600px;
-    background-color: rgb(37, 39, 42);
-}
-
-.top-footer {
-    padding: 10px 0 20px 0;
-    border-bottom: 1px solid white;
-    height: 500px;
-}
-
-.contacts {
-    display: flex;
-    width: 70%;
-    margin: auto;
-    height: 100%;
-}
-
-.column.social {
-    width: 30%;
-}
-
-.column {
-    width: calc(70% / 4);
-}
-
-.bottom-footer {
-    padding-top: 20px;
-    height: 100px;
-
-}
-
-.btm-footer-container {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.logo, .footer-button {
-    padding: 5px;
-}
-
-/* fine footer */
 
 /* inizio codice debug */
 
