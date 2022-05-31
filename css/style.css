@@ -261,14 +261,30 @@ hr {
 
 }
 
+.btn:hover {
+    background-color: #25272a;
+    color: #fff;
+}
+
 .btn.black {
     background-color: #25272a;
     color: #fff;
 }
 
+.btn.black:hover {
+    background-color: #efefef;
+    color: black;
+}
+
 .btn.violet {
     background-color: #7175da;
     color: #fff;
+}
+
+.btn.violet:hover {
+    color: #7175da;
+    background-color: #efefef;
+    border: #7175da 1px solid;
 }
 
 /* bottoni */
@@ -288,12 +304,12 @@ hr {
 .wave1 svg {
     position: relative;
     display: block;
-    width: calc(157% + 1.3px);
-    height: 69px;
+    width: calc(123% + 1.3px);
+    height: 85px;
 }
 
 .wave1 .shape-fill {
-    fill: #F6F6F6;
+    fill: #f6f6f6;
 }
 
 .wave2 {
@@ -303,18 +319,17 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
 .wave2 svg {
     position: relative;
     display: block;
-    width: calc(123% + 1.3px);
-    height: 85px;
+    width: calc(100% + 1.3px);
+    height: 63px;
 }
 
 .wave2 .shape-fill {
-    fill: #fff;
+    fill: #FFFFFF;
 }
 
 /* fine onde */
