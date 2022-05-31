@@ -8,6 +8,11 @@ body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+header {
+    height: 584px;
+    background-color: rgb(39, 94, 233);
+}
+
 /* inizio top header */
 
 .top-container {
@@ -42,11 +47,22 @@ body {
 }
 
 .menu ul li {
-    margin: 0 5px;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .login-container {
     text-align: right;
+}
+
+.btn {
+    border-radius: 50px;
+    border: none;
+    padding: 8px;
 }
 
 /* fine top header */
