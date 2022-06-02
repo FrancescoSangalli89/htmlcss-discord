@@ -13,7 +13,6 @@ p {
 }
 
 header {
-    height: 584px;
     background-color: #275ee9;
 }
 
@@ -51,12 +50,13 @@ header {
 }
 
 .menu ul li {
-    margin: 0 10px;
+    padding: 10px;
 }
 
 .menu ul li a {
     text-decoration: none;
     color: #fff;
+    padding: 10px;
 }
 
 .login-container {
@@ -86,6 +86,7 @@ header {
 
 .hero > h1 {
     margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .hero > p  {
@@ -158,6 +159,7 @@ header {
 
 .bottom-special h4 {
     margin-bottom: 40px;
+    line-height: 50px;
 }
 
 .bottom-special {
@@ -173,7 +175,6 @@ header {
 /* inizio footer */
 
 footer {
-
     background-color: #25272a;
 }
 
@@ -185,7 +186,7 @@ footer {
 .contacts {
     display: flex;
     width: 70%;
-    margin: auto;
+    margin: 50px auto;
     height: 100%;
 }
 
@@ -217,7 +218,7 @@ footer {
     color: #7175da;
 }
 
-.contacts .column ul a {
+.contacts .column a {
     text-decoration: none;
     color: #fff;
 }
@@ -261,10 +262,18 @@ hr {
     border-radius: 50px;
     border: none;
     padding: 8px;
-    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #25272a;
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
+}
+
+.btn.big {
+    padding: 20px;
+    margin: 10px;
 }
 
 .btn:after {
@@ -325,44 +334,38 @@ hr {
 
 /* onde */
 
-.wave1 {
+.wave {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+}
+
+.wave.one {
     transform: rotate(180deg);
 }
 
-.wave1 svg {
+.wave.one svg {
     position: relative;
     display: block;
     width: calc(123% + 1.3px);
     height: 85px;
 }
 
-.wave1 .shape-fill {
-    fill: #f6f6f6;
-}
-
-.wave2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave2 svg {
+.wave.two svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 63px;
 }
 
-.wave2 .shape-fill {
+.wave.one .shape-fill {
+    fill: #f6f6f6;
+}
+
+.wave.two .shape-fill {
     fill: #FFFFFF;
 }
 
